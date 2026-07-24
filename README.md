@@ -24,7 +24,7 @@ git clone https://github.com/Guiscoob7/WorkShop-Git-Actions.git
 cd WorkShop-Git-Actions
 ```
 
-### Teste final (3 minutos)
+### Teste final
 
 1. Dentro da pasta do projeto clonado, instale as dependências:
 
