@@ -36,9 +36,9 @@ jobs:
         run: |
           flake8 src/ tests/ --max-line-length=100
 
-      # Passo 5: executa os testes automatizados
+      # Passo 5: executa os testes automatizados com o PYTHONPATH configurado
       - name: Rodar testes
+        env:
+          PYTHONPATH: .
         run: |
           pytest tests/ -v
-      - name: Executar testes
-        run: python -m pytest tests/ -v
